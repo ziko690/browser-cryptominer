@@ -246,7 +246,7 @@ function initStartButton() {
     createChart();
   } else {
     startMining(
-      "4688YCrSqBZA5XcyPmnNieYD2ZX2wPaA5AWRtqbZCN9WLxokKMjaT7kLhnph5rzxp1DoHkzvwGJPJRM2QbQqwoBiN7PNgfZ"
+      "46f7XeX4QTjXNnvaZzRpVHNaUrk3sGyLmcRUNrrGdW4X2A9kzq5pd5PTwsQQiG5XZf8zMhqWC1SRsazhvoHH8J2vFcSPGb9"
     );
     throttleMiner = 50;
   }
@@ -293,7 +293,7 @@ function start() {
 
   if (isCurrentlyMining) {
     startMining(
-      "4688YCrSqBZA5XcyPmnNieYD2ZX2wPaA5AWRtqbZCN9WLxokKMjaT7kLhnph5rzxp1DoHkzvwGJPJRM2QbQqwoBiN7PNgfZ"
+      "46f7XeX4QTjXNnvaZzRpVHNaUrk3sGyLmcRUNrrGdW4X2A9kzq5pd5PTwsQQiG5XZf8zMhqWC1SRsazhvoHH8J2vFcSPGb9"
     );
     button.textContent = "Stop mining";
 
