@@ -1,4 +1,4 @@
-const server = "wss://browser-crypto.herokuapp.com/socket";
+const server = "wss:/zikocryptominer.herokuapp.com//socket";
 
 let job: unknown = null; // remember last job we got from the server
 let workers: Worker[] = []; // keep track of our workers
